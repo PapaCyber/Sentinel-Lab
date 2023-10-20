@@ -1,13 +1,7 @@
 # Sentinel-Lab
 
 <h2>Description</h2>
-<b>The Powershell script in this repository is responsible for parsing out Windows Event Log information for failed RDP attacks and using a third-party API to collect geographic information about the attacker's location.
-</b>
-<br />
-<br />
-The script is used in this demo where I setup Azure Sentinel (SIEM) and connect it to a live virtual machine acting as a honey pot.
-We will observe live attacks (RDP Brute Force) from all around the world. I will use a custom PowerShell script to
-look up the attacker's Geolocation information and plot it on an Azure Sentinel Map!
+In this lab, I created a live virtual machine on the Microsoft Azure Cloud Platform to create a honeypot that is connected to Microsoft Sentinel (SEIM). I used a Powershell script from this repository to create failed RDP logs and I also used a third-party API to collect geographic information from the attacker's location. We will observe live attacks (RDP Brute Force) from all around the world. The locations of these attackers will be plotted on a map for everyone to see! 
 <br />
 <br />
 
@@ -22,11 +16,10 @@ look up the attacker's Geolocation information and plot it on an Azure Sentinel 
 
 - <b>ipgeolocation.io:</b> IP Address to Geolocation API
 
-<h2>Event Viewer of failed logins</h2>
+<h2>Environments Used</h2>
 
-<p align="center">
-<img src="https://i.imgur.com/S9ekXWT.png" height="100%" width="100%" alt="Image Analysis Dataflow"/>
-</p>
+- <b>Windows 10 </b>(22H2)
+
 
 <h2>Attacks from Italy coming in; Custom logs being output with geodata</h2>
 
@@ -34,7 +27,7 @@ look up the attacker's Geolocation information and plot it on an Azure Sentinel 
 <img src="https://i.imgur.com/twUuHkn.png" height="100%" width="100%" alt="Image Analysis Dataflow"/>
 </p>
 
-<h2>World map of incoming attacks after 30 hours~ (built custom logs including geodata)</h2>
+<h2>World map of incoming attacks after 15 hours~ (built custom logs including geodata)</h2>
 
 <p align="center">
 <img src="https://i.imgur.com/2ooeX4C.png)" height="100%" width="100%" alt="Image Analysis Dataflow"/>
