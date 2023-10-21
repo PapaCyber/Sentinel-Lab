@@ -30,7 +30,7 @@ In this lab, I created a live virtual machine on the Microsoft Azure Cloud Platf
 <h2>World map of incoming attacks after 15 hours~ (built custom logs including geodata)</h2>
 
 <p align="center">
-<img src="https://i.imgur.com/Kouf3ls.png)" height="100%" width="100%" alt="Image Analysis Dataflow"/>
+<img src="https://i.imgur.com/2ooeX4C.png)" height="100%" width="100%" alt="Image Analysis Dataflow"/>
 </p>
 
 
