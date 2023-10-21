@@ -1,7 +1,7 @@
 # Sentinel-Lab
  ### [Video Demonstration](https://www.loom.com/share/12a6a53af2f84d19bf03d8c96b579879?sid=898e61dd-0c41-4c2c-a591-1b468e8c9683)
 <h2>Description</h2>
-In this lab, I created a live virtual machine on the Microsoft Azure Cloud Platform to function as a honeypot, which was integrated with Microsoft Sentinel (SEIM). I used a Powershell script from this repository to create failed RDP logs. Additionally, I used a third-party API to collect geographic information from the attacker's location. The outcome of this exercise is the real-time monitoring and analysis of live cyberattacks, specifically focusing on RDP Brute Force attacks. The geographic locations of these threat actors will be visually mapped for everyone to see!
+In this lab, I created a live virtual machine on the Microsoft Azure Cloud Platform to function as a honeypot, which was integrated with Microsoft Sentinel (SEIM). I used a Powershell script from this repository to create failed RDP logs. Additionally, I used a third-party API to collect geographic information from the attacker's location. The outcome of this exercise is the real-time monitoring and analysis of live cyberattacks, specifically focusing on RDP Brute Force attacks. The geographic locations of these threat actors will be visually mapped for everyone to see! 
 <br />
 <br />
 
@@ -32,6 +32,11 @@ In this lab, I created a live virtual machine on the Microsoft Azure Cloud Platf
 <p align="center">
 <img src="https://i.imgur.com/2ooeX4C.png)" height="100%" width="100%" alt="Image Analysis Dataflow"/>
 </p>
+
+
+<h2>Final Thoughts and Takeaway</h2>
+
+In conclusion, I was very surprised how my homelab got attacked right as It got online and I didn't broadcast it to the world. From the results, many of these threat actors tried to log in with the most common username, admin or administrator. This is the reason why people should never use default accounts or passwords when deploying systems, all the threat actors know about it. Always use strong passwords and always use MFA when possible. Add as many layers of security as you can to make it more difficult to be hacked. 
 
 
 <!--
