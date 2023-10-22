@@ -8,6 +8,7 @@ In this lab, I created a live virtual machine on the Microsoft Azure Cloud Platf
 <p align="center">
 <img src="https://i.imgur.com/07encyr.png" height="100%" width="100%" alt="RDP event fail logs to iP Geographic information"/>
 </p>
+
 <h2>Languages Used</h2>
 
 - <b>PowerShell:</b> Extract RDP failed logon logs from Windows Event Viewer 
@@ -19,6 +20,13 @@ In this lab, I created a live virtual machine on the Microsoft Azure Cloud Platf
 <h2>Environments Used</h2>
 
 - <b>Windows 10 </b>(22H2)
+
+
+<h2>Vulnerable Settings</h2>
+<img src="https://i.imgur.com/fOkVxRK.png" height="60%" width="60%" alt="Any Any"/>
+
+<br/>
+<img src="https://i.imgur.com/2Ltrqtu.png" height="60%" width="60%" alt="Any Any"/>
 
 
 <h2>Attacks from Italy coming in; Custom logs being output with geodata</h2>
