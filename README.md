@@ -1,7 +1,7 @@
 # Sentinel-Lab
  ### [Video Demonstration](https://www.loom.com/share/12a6a53af2f84d19bf03d8c96b579879?sid=898e61dd-0c41-4c2c-a591-1b468e8c9683)
 <h2>Description</h2>
-In this lab, I created a live virtual machine on the Microsoft Azure Cloud Platform to function as a honeypot, which was integrated with Microsoft Sentinel (SEIM). I used a Powershell script from this repository to create failed RDP logs. Additionally, I used a third-party API to collect geographic information from the attacker's location. The outcome of this exercise is the real-time monitoring and analysis of live cyberattacks, specifically focusing on RDP Brute Force attacks. The geographic locations of these threat actors will be visually mapped for everyone to see! 
+In this lab, I created a live virtual machine on the Microsoft Azure Cloud Platform to function as a honeypot, which was integrated with Microsoft Sentinel. I used a Powershell script from this repository to create failed RDP logs. Additionally, I used a third-party API to collect geographic information from the attacker's location. The outcome of this exercise is the real-time monitoring and analysis of live cyberattacks, specifically focusing on RDP Brute Force attacks. The geographic locations of these threat actors will be visually mapped for everyone to see! 
 <br />
 <br />
 
